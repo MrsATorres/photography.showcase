@@ -1,0 +1,59 @@
+body {
+  background-color: #5b3c17;
+  /* background-image: url("https://img.freepik.com/premium-vector/vector-seamless-pattern-black-cow-fur-print_505913-2872.jpg"); */
+}
+
+nav {
+  /* go from left to right */
+  display: flex;
+
+  /* vertical align to center */
+  align-items: center;
+
+  /* space between each element horizontally */
+  justify-content: space-between;
+
+  /* there is padding-top or bottom or left or right , or just padding: value; to apply to all sides */
+
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+#ribbon {
+  /* go from left to right */
+  display: flex;
+  /* vertical align to center */
+  align-items: center;
+  /* space between each element horizontally */
+  justify-content: space-evenly;
+
+  /* change the space between */
+  gap: 65px;
+}
+
+a {
+  /* 1. make everything uppercase */
+  text-transform: uppercase;
+
+  /* 2. remove the underline */
+  text-decoration: none; /* Remove underline */
+
+  /* 3. make the text color white */
+  color: white;
+
+  /* 4. make the font less bold */
+  font-weight: lighter;
+
+  /* 5. change the font family */
+  font-family: "Montserrat", sans-serif;
+
+  /* 6. make the font a little less big. When working with fonts use rem units not px */
+  font-size: 0.8rem;
+}
